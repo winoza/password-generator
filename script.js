@@ -30,7 +30,7 @@ function pwprompt() {
     
         // Conditional statement to check if password length is less than 128 characters long. Prompts end if this evaluates false
         else if (passwordlength > 128) {
-            alert('Password length must less than 129 characters'); 
+            alert('Password length must less than 128 characters'); 
             }
     } while (passwordlength == null || isNaN(passwordlength) === true || passwordlength < 8 || passwordlength > 128)
 }

@@ -10,9 +10,9 @@ User clicks "Generate Password" and is given a series of prompts functioning as 
 
 ### Password Requirements
 
-* User MUST choose a number for the password length between 8 - 129.
+* User MUST choose a number for the password length between 8 - 128.
     * Inputting a letter or symbol will not allow user to continue to the password criteria prompts.
-    * Numbers less than 8 or greater 129 will not allow user to the password criteria prompts.
+    * Numbers less than 8 or greater than 128 will not allow user to the password criteria prompts.
 
 
 
