@@ -49,13 +49,13 @@ function criteriafunc() {
             selectioncriteria.push('upper');
         }
         // Use confirm to ask if user wants numbers  
-        isNumeric = confirm("Do you want a number?")
+        isNumeric = confirm("Do you want numbers?")
         /*console.log(isNumeric)*/
         if (isNumeric == true) {
             selectioncriteria.push('number');
         }
         // Use confirm to ask if user wants special characters  
-        isSpecial = confirm("Do you want a special character?")
+        isSpecial = confirm("Do you want special characters?")
         /*console.log(isSpecial)*/
         if (isSpecial == true) {
             selectioncriteria.push('special');
