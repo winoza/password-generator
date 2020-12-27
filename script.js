@@ -1,16 +1,30 @@
 // Define variables
 
-var passwordlength = ""
-var isLower
-var isUpper
-var isNumeric
-var isSpecial
-var newpassword = ""
+
 var lowerABC = "abcdefghijklmnopqrstuvwxyz";
 var upperABC = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var sym = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
+
+var isLower = ""
+var isUpper = ""
+var isNumeric = ""
+var isSpecial = ""
+var newpassword = ""
 var selectioncriteria = []
 
+function resetvar() {
+    isLower = ""
+    isUpper = ""
+    isNumeric = ""
+    isSpecial = ""
+    newpassword = ""
+    selectioncriteria = []
+}
+
+function myResetFunction() {
+    document.getElementById("password").value = "";
+
+  }
 
 function pwprompt() {
     do { // Create prompt for password length
@@ -100,6 +114,7 @@ function mainpwfunc() {
         newpassword += genChar(selectioncriteria[y])
     }
     document.getElementById("password").innerHTML = newpassword;
+    resetvar();
 }
 
 
