@@ -1,6 +1,4 @@
 // Define variables
-
-
 var lowerABC = "abcdefghijklmnopqrstuvwxyz";
 var upperABC = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var sym = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
@@ -106,6 +104,7 @@ function genChar(selCri) {
 }
 
 function mainpwfunc() {
+    document.querySelector("#password").textContent = "";
     pwprompt();
     criteriafunc();
     for(var i = 0; i < passwordlength; i++) {
@@ -113,8 +112,10 @@ function mainpwfunc() {
         var y = Math.floor(Math.random() * selectioncriteria.length) // a random number between 1 to however many selection criteria the user selected
         newpassword += genChar(selectioncriteria[y])
     }
-    document.getElementById("password").innerHTML = newpassword;
+    document.querySelector("#password").innerHTML = newpassword;
     resetvar();
 }
+
+
 
 
