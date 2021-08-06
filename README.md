@@ -6,7 +6,7 @@ With the increasing threat of identity theft, having secure passwords is more im
 
 ## Usage
 
-![](images/password-generator.jpg)
+![](images/password-generator.JPG)
 
 User clicks "Generate Password" and is given a series of prompts functioning as criteria for generating a password. User clicks "OK" or "Cancel" to choose from a combination of lowercase and uppercase letters, numbers, and special characters. When all the criteria has been defined, the user's generated password will appear.
 
