@@ -6,6 +6,8 @@ Password Generator is an application writen in HTML, CSS, and Javascript that ge
 
 ## Usage
 
+![](images/password-generator.jpg)
+
 User clicks "Generate Password" and is given a series of prompts functioning as criteria for generating a password. User clicks "OK" or "Cancel" to choose from a combination of lowercase and uppercase letters, numbers, and special characters. When all the criteria has been defined, the user's generated password will appear.
 
 ### Password Requirements
