@@ -4,6 +4,8 @@
 
 With the increasing threat of identity theft, having secure passwords is more important than ever. When handling passwords, it is recommended to create long and complex passwords, use a different password for each account, and change them regularly. Password Generator is an application writen in HTML, CSS, and Javascript that generates a secure password with a click of a button!
 
+Deployed live application: https://winoza.github.io/password-generator/
+
 ## Usage
 
 ![](images/password-generator.JPG)
